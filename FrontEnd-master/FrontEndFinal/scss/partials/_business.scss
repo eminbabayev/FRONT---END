@@ -1,0 +1,100 @@
+#business{
+    position: relative;
+    padding: 120px 0px 80px;
+
+    .image-business{
+        position: relative;
+        padding: 0;
+        .imager{
+            position: relative;
+            margin-bottom: 40px;
+            img{
+    
+                animation-duration: 2s;
+                animation-name: wow;
+                animation-fill-mode: forwards;
+                transition: all 0.5s ease;
+                
+            }
+        }
+    }
+    .text-business{
+        position: relative;
+        padding-left: 75px;
+    
+     
+        .inner-text{
+            position: relative;
+            .title-business{
+                position: relative;
+                margin-bottom: 20px;
+                @media screen and (max-width:1140px){
+                    &{
+                        font-size: 30px;
+                    }
+                    }
+           .leverage{
+            position: relative;
+            color: #222222;
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 43px;
+            margin-bottom: 26px;
+                .grow{
+                    color: #2fc42b;
+                }
+            }
+        }
+       }
+       .p-text{
+        position: relative;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-family: $font-changa;
+       }
+       .list-unstyled{
+        position: relative;
+           li{
+               &::before{
+                position: absolute;
+                content: '\f0da';
+                left: 0px;
+                top: 0px;
+                color: #2fc42b;
+                font-size: 15px;
+                font-family: "FontAwesome";
+               }
+            position: relative;
+    padding-left: 15px;
+    font-size: 15px;
+    color: #aaaaaa;
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-family:$font-changa;
+           }
+       }
+    }
+
+}
+@media screen and (max-width:1140px){
+    #business{
+        div[class*=col]:last-child{
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+    }
+}
+
+@keyframes wow {
+    from{
+        transform: translateX(-100%);
+      
+    }
+    to{
+        transform: translateX(0%);
+
+    }
+}

@@ -1,0 +1,85 @@
+#fact{
+    position: relative;
+     background-position: top center;
+     background-size: cover;
+     padding: 100px 0px 70px 0px;
+     background-color: #3d4a66;
+     background-repeat: repeat-x;
+     background-image: url('../img/1.png');
+         .facts{
+             position: relative;
+         .fact-rim{
+             position: relative;
+             z-index: 5;
+             padding: 0 2px;
+             margin-bottom: 30px;
+             .inner{
+                position: relative;
+     text-align: center;
+     background-color: #333743;
+     padding: 80px 15px 70px;
+     transition: all 0.5 ease;
+                 .count{
+                     .pt1{
+                         color: #f84685;
+                         position: relative;
+                 
+                         display: block;
+                         font-size: 70px;
+                         line-height: 1em;
+                         margin-bottom: 20px;    
+                     
+                         
+                         
+                     }
+                     .pt2{
+                         color: #2fc42b;
+                         position: relative;
+                 
+                         display: block;
+                         font-size: 70px;
+                         line-height: 1em;
+                         margin-bottom: 20px;    
+                     }
+                     .pt3{
+                         color: #f1e651;
+                         position: relative;
+                 
+                         display: block;
+                         font-size: 70px;
+                         line-height: 1em;
+                         margin-bottom: 20px;    
+                     }   
+                     .pt4{
+                         color: orange;
+                         position: relative;
+                 
+                         display: block;
+                         font-size: 70px;
+                         line-height: 1em;
+                         margin-bottom: 20px;    
+                     }
+                         
+                     .count-title{
+                         position: relative;
+                         font-size: 20px;
+                         font-weight: 500;
+                         color: #edf7ff;
+                         display: block;
+                         margin-bottom: 5px;
+                     }
+                     .timer{
+                         position: relative;
+                         font-weight: 700;
+                         color: #edf7ff;
+                         font-size: 50px;
+                         display: block;
+                         line-height: 1em;
+                     }
+                 }
+             }
+         }
+     }
+ 
+ }
+ 

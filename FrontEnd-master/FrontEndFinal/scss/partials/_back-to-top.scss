@@ -1,0 +1,57 @@
+#back-to-top{
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+    // display: none;
+    opacity: 0;
+    transition: all 0.3s ease;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 60px;
+    height: 60px;
+    color: #ffffff; 
+    z-index: 91;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+    background: #0a0a0a;
+    &:hover{
+        background-color: #2fc42b;
+    }
+    
+    .fa{
+        display: inline-block;
+        font-family: 'FontAwesome';       
+    }
+}
+
+@keyframes scroll-btn-show{
+    0%{
+        opacity: 0;
+        display:block;
+    }
+    50%{
+        display: block;
+        opacity: 1;
+    }
+    100%{
+        display: block;
+        opacity: 1;
+    }
+}
+@keyframes scroll-btn-hidden{
+    0%{
+        opacity: 1;
+        display:block;
+    }
+    50%{
+        display: block;
+        opacity: 0;
+    }
+    100%{
+        display: none;
+        opacity: 0;
+    }
+}

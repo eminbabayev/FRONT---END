@@ -1,0 +1,85 @@
+#digital{
+    background-color: #f5f5f5;
+    padding: 200px 0px 100px;
+    .digital-image{
+        margin: -70px 0px 0px;
+        margin-bottom: 40px;
+        .digital-image-in{
+            img{
+                position: relative;
+                left: -20px;
+                top: 0px;
+                max-width: none;
+                display: block;
+
+            }
+        }
+    }
+    .digital-text{
+        .digital-text-in{
+            padding-left: 40px;
+            .digital-title{
+                margin-bottom: 20px;
+                .full{
+                    position: relative;
+                    color: #222222;
+                    font-size: 35px;
+                    font-weight: 700;
+                    line-height: 43px;
+                    margin-bottom: 26px;
+                    .dig{
+                        color: #2fc42b;
+                    }
+
+                }
+            }
+            .digital-end{
+                position: relative;
+                color: #333333;
+                font-size: 18px;
+                line-height: 25px;
+                font-family: "Changa",sans-serif;
+                font-weight: 300;
+                margin-bottom: 25px;
+
+            }
+        }
+    }
+    #accordion{
+        counter-reset: count;
+        .card{
+ 
+            
+            
+            .card-header{
+                background-color: white;
+                border: none;
+                height: 60px;
+               
+                .acc-btn{
+                    position: relative;
+                    
+    font-size: 15px;
+    color: #aaaaaa;
+    cursor: pointer;
+    line-height: 30px;
+    font-weight: 400;
+    padding: 0px 50px 0px 64px;
+
+
+                }
+            }
+            #collapseOne{
+                font-size: 14px;
+                padding: 5px 50px 0px 64px;
+                .card-body{
+                    margin-bottom: 20px;
+                    line-height: 26px;
+                    font-size: 15px;
+                    color: #aaaaaa;
+
+                }
+            }
+        }
+    }
+}

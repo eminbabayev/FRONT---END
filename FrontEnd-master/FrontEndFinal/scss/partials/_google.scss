@@ -1,0 +1,168 @@
+
+#google{
+    padding: 150px 0 110px;
+    .up-google{
+        .google-image{
+            margin-bottom: 50px;
+            .img{
+                img{
+                    max-width: 100%;
+
+                }
+            }
+        }
+        .google-text{
+            margin-bottom: 50px;
+            .ranking{
+                font-size: 40px;
+                line-height: 50px;
+                color: #333333;
+                font-weight: 700;
+                margin-bottom: 30px;
+
+            }
+            .ranking-1{
+                line-height: 25px;
+                font-size: 15px;
+    color: #aaaaaa;
+    font-family: "Changa", sans-serif;
+    font-weight: 300;
+    margin-bottom: 25px;
+
+            }
+            .ranking-2{
+                line-height: 25px;
+                font-size: 15px;
+    color: #aaaaaa;
+    font-family: "Changa", sans-serif;
+    font-weight: 300;
+    margin-bottom: 25px;
+
+
+            }
+            .google-detail{
+                margin-top: 50px;
+                .google-menu{
+                    padding: 0px;
+                    margin: 0px;
+                    list-style: none;
+                
+
+                    .list{
+                        font-size: 15px;
+    line-height: 30px;
+    color: #aaaaaa;
+    background: #ffffff;
+    width: 100%;
+    font-weight: 300;
+    font-family: "Changa", sans-serif;
+         
+                        .list-span{
+                            width: 160px;
+                            font-weight: 300;
+                            color: #333333;
+                            display: inline-block;
+                            .list-span::after{
+                                
+                                    position: absolute;
+                                    right: 40px;
+                                    top:d 0;
+                                    font-size: 15px;
+                                    line-height: 30px;
+                                    content: ":";
+                                    color: #333333;
+                                
+                            }
+                          
+
+                      
+
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    .text-boxs{
+        margin-bottom: 70px;
+        .text-box{
+            font-size: 15px;
+    line-height: 30px;
+    color: #aaaaaa;
+    font-family: "Changa", sans-serif;
+    font-weight: 300;
+    margin-bottom: 25px;
+
+        }
+    }
+    .section-2{
+        position: relative;
+        .section-2-image{
+            margin-bottom: 40px;
+            .sec-img{
+                img{
+                    max-width: 100%;
+
+                }
+            }
+        }
+        .section-2-text {
+            padding-right: 45px;
+            .section-2-title{
+                font-size: 35px;
+                color: #000000;
+                line-height: normal;
+                margin-bottom: 20px;
+                top: -7px;
+
+            }
+            .sec-text{
+                margin-bottom: 20px;
+                font-size: 15px;
+                line-height: 30px;
+                color: #aaaaaa;
+                font-family: "Changa", sans-serif;
+                font-weight: 300;
+
+            }
+            .sec-text-end{
+                font-size: 17px;
+                line-height: 30px;
+                color: #333333;
+                margin-bottom: 20px;
+                font-weight: 700;
+
+            }
+            .section-2-menu{
+                list-style: none;
+                padding: 0px;
+                margin: 0px;
+                .section-2-list{
+                    margin-bottom: 8px;
+                    position: relative;
+    font-size: 17px;
+    line-height: 30px;
+    color: #333333;
+    padding-left: 27px;
+    font-weight: 300;
+    font-family: "Changa", sans-serif;
+    &::before{
+        position: absolute;
+        content: "\f00c";
+        left: 0px;
+        top: 0px;
+        color: #2fc42b;
+        font-size: 17px;
+        line-height: 30px;
+        font-family: "FontAwesome";
+    }
+
+                    
+                    
+                }
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,69 @@
+#vision{
+    padding: 140px 0 110px;
+    .vision-image{
+        
+        .image-in{
+            margin-top: 10px;
+            margin-bottom: 40px;
+            text-align: right;
+            img{
+                display: inline-block;
+    max-width: 100%;
+    height: auto;
+            }
+        }
+    }
+    .vision-text{
+        padding-right: 60px;
+        .text-in{
+            .vision-title{
+                font-size: 35px;
+    line-height: 40px;
+    color: #222222;
+    font-weight: 700;
+    margin-bottom: 30px;
+
+            }
+            .text-in-start{
+                font-size: 20px;
+                line-height: 25px;
+                color: #333333;
+                font-weight: 300;
+                font-family: "Changa", sans-serif;
+                margin-bottom: 30px;
+                a{
+                    text-decoration: none;
+    cursor: pointer;
+    color: #2fc42b;
+
+                }
+            }
+        .text-in-center{
+            position: relative;
+    color: #aaaaaa;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-family: "Changa", sans-serif;
+
+        }
+        .text-in-end{
+            position: relative;
+    color: #aaaaaa;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-family: "Changa", sans-serif;
+
+        }
+
+      }
+    }
+}
+@media only screen and (max-width:1023px){
+.vision .vision-image .image-in img{
+    float: right !important;
+}
+}

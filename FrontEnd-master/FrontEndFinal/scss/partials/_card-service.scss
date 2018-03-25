@@ -1,0 +1,96 @@
+#card-service{
+    padding: 135px 0px 110px;
+    .card-service-title{
+        margin-bottom: 60px;
+        text-align: center;
+        .card-service-h2{
+            position: relative;
+            color: #222222;
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 43px;
+            margin-bottom: 26px;
+            .card-service-plan{
+                color: #2fc42b;
+            }
+        }
+    }
+    .card-service-box{
+        padding-right: 49px;
+    padding-left: 49px;
+    margin-bottom: 40px;
+        .card-service-in{
+            position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    transition: all 0.4s ease;
+            .card-service-start{
+                padding: 40px 20px 10px;
+    text-align: center;
+    background: #ffffff;
+    color: #333333;
+                .start-title{
+                    font-size: 20px;
+                    color: #aaaaaa;
+                    font-family: "Ubuntu",sans-serif;
+
+                }
+                .start-center{    
+                    font-size: 65px;
+                    color: #333333;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    line-height: 1em;
+                    font-family: "Ubuntu",sans-serif;
+                    .service-dollar{
+                        font-size: 40px;
+
+                    }
+                }
+            }
+            .card-service-center{
+                padding: 0 15px;
+                text-align: center;
+                text-transform: capitalize;
+                .card-service-menu{
+                    list-style: none;
+                    .card-service-list{
+                        font-size: 15px;
+                        line-height: 30px;
+                        color: #777777;
+                        font-family: "Changa", sans-serif;
+                        font-weight: 300;
+                        margin-bottom: 15px;
+                        .service-hour{
+                            color: #2fc42b;
+
+                        }
+                    }
+                }
+            }
+            .card-service-end{
+                text-align: center;
+                padding-bottom: 55px;
+                .card-service-btn{
+                    padding: 10px 42px;
+    z-index: 1;
+    line-height: 30px;
+    color: #aaaaaa;
+    border: 2px solid #f7f7f7;
+    background: transparent;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover{
+        background-color: #2f3340;
+        border-color: #2f3340;
+        color: white;
+        transition: all 0.8s ease;
+    }
+
+                }
+            }
+        }
+    }
+}

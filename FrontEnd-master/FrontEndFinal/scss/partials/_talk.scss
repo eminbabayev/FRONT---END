@@ -1,0 +1,38 @@
+#talk  {
+    padding: 90px 0px 90px;
+    .talk-text{
+        
+        .talk-h{
+            color: #222222;
+            font-size: 35px;
+            margin-top: 3px;
+            margin-bottom: 10px;
+
+        }
+    }
+    .button-talk{
+        text-align: center;
+        padding: 28px;
+        .btn-talk{
+            position: relative;
+    padding: 15px 38px;
+    line-height: 24px;
+    text-transform: uppercase;
+    background: #2f3340;
+    color: #ffffff;
+    border: 2px solid #2f3340;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+
+    &:hover{
+        background-color: #2fc42b;
+        border:1px solid #2fc42b;
+    }
+
+        }
+    }
+}

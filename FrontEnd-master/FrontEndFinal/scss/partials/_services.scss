@@ -1,0 +1,93 @@
+
+#services{
+    position: relative;
+    padding: 140px 0px 100px;
+    .services-title{
+        margin-bottom: 50px;
+        position: relative;
+        text-align: center;
+        .services-h{
+            position: relative;
+    color: #222222;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 43px;
+    margin-bottom: 26px;
+            .serv{
+                color: #2fc42b;
+            }
+        }
+        .services-text{
+      position: relative;
+    font-size: 15px;
+    line-height: 25px;
+    color: #aaaaaa;
+    font-family: 'Changa', sans-serif;
+    font-weight: 300;
+    max-width: 940px;
+    margin: 0 auto;
+
+        }
+    }
+    .box-service{
+        padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    margin-bottom: 40px;
+    .inner-service{
+        position: relative;
+    display: block;
+    padding: 30px 35px;
+    &:hover{
+        box-shadow: 0 35px 34px rgba(233,233,233,.75);
+
+    }
+    .content-service{
+        position: relative;
+        padding-left: 100px;
+       
+        .icon-service{
+            position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 80px;
+    height: 80px;
+    .icon img{
+        display: inline-block;
+        max-width: 100%;
+        height: auto;
+    
+        }
+        
+    }
+    .free{
+        position: relative;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 5px;
+        .rer{
+            position: relative;
+            color: #333333;
+           text-decoration: none;
+           &:hover{
+               color: #2fc42b;
+           }
+        }
+
+    }
+    .free-text{
+        position: relative;
+    font-size: 15px;
+    line-height: 25px;
+    color: #aaaaaa;
+    font-family: "Changa", sans-serif;
+    font-weight: 300;
+    }
+   
+
+    }
+    
+    }
+    
+    }
+}

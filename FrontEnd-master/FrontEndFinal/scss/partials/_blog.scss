@@ -1,0 +1,315 @@
+#blog{
+    overflow: hidden;
+    padding: 140px 0px 40px;
+    .blog-image{
+        margin-bottom: 30px !important;
+        .blog-class{
+           
+          
+            .news{
+                position: relative;
+                margin-bottom: 70px;
+                .news-in{
+                    display: block;
+                    .news-image{
+                        a{
+                            text-decoration: none;
+                            cursor: pointer;
+                            color: #2fc42b;
+                            img{
+                                width: 100%;
+                                display: block;
+
+                            }
+                        }
+                    }
+                    .news-center{
+                        position: relative;
+                        padding-top: 35px;
+                        padding-left: 95px;
+                        margin-bottom: 25px;
+                        .news-date{
+                            position: absolute;
+                            left: 0;
+                            width: 55px;
+                            top: 46px;
+                            text-align: center;
+                            .date-day{
+                                font-size: 40px;
+                                line-height: 40px;
+                                font-weight: 300;
+                                font-family: "Ubuntu", sans-serif;
+                                color: #2fc42b;
+                                display: block;
+                                margin-bottom: 5px;
+
+                            }
+                            .news-months{
+                                position: relative;
+                                display: inline-block;
+                                font-size: 15px;
+                                line-height: 25px;
+                                color: #333333;
+                                font-weight: 300;
+                                font-family: "Changa", sans-serif;
+
+                            }
+                        }
+                        .news-date-text{
+                            position: relative;
+                            padding: 25px 0;
+                            .news-title{
+                                position: relative;
+                                font-size: 25px;
+                                line-height: 1.2em;
+                                font-weight: 400;
+                                margin-bottom: 5px;
+                                a{
+                                    position: relative;
+
+    color: #333333;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    &:hover{
+        color: #2fc42b;
+    }
+                                }
+                            }
+                            .news-menu{
+                                display: block;
+                                .news-list{
+                                    list-style: none;
+                                    a{
+                                        float: left;
+    margin-right: 4px;
+    line-height: 25px;
+    font-size: 13px;
+    color: #aaaaaa;
+    font-weight: 300;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+    transition: all 0.5s ease;
+
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                    .news-text{
+                        font-size: 15px;
+                        line-height: 25px;
+                        color: #aaaaaa;
+                        font-family: "Changa", sans-serif;
+                        font-weight: 300;
+                        margin-bottom: 20px;
+
+                    }
+
+                }
+            }
+
+        }
+    }
+    .blog-text{
+        padding-left: 45px;
+        .blog-sidebar{
+            position: relative;
+            .sidebar-widget{
+                margin-bottom: 40px;
+                form{
+                    .form-group{
+                        input{
+                            position: relative;
+    background: #f4f4f4;
+    color: #222222;
+    display: block;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 300;
+    width: 100%;
+    height: 65px;
+    border: 1px solid #f4f4f4;
+    padding: 10px 120px 10px 30px;
+    transition: all 0.5s ease;
+
+                        }
+                        .submit{
+                            position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 64px;
+    width: 107px;
+    line-height: 46px;
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    color: #ffffff;
+    background: #333333;
+    font-weight: normal;
+    transition: all 0.5s ease;
+                            .side-icon{
+                                display: inline-block;
+                                font-family: 'FontAwesome';
+
+
+                            }
+                        }
+                    }
+                }
+            }
+            .sidebar-widget{
+                margin-bottom: 40px;
+                .sidebar-title{
+                    position: relative;
+                    margin-bottom: 30px;
+                    h2{
+                        font-size: 20px;
+                        color: #333333;
+                        font-weight: 500;
+                        line-height: 35px;
+                        text-transform: capitalize;
+
+                    }
+                }
+                .widget-content{
+                    padding: 20px 40px 20px;
+                    background-color: #f4f4f4;
+                    .blog-menu{
+                        margin-bottom: 20px;
+                        list-style: none;
+
+                        .blog-list{
+                            font-size: 14px;
+                            line-height: 29px;
+                            font-weight: 400;
+                            padding: 10px 0;
+                            border-bottom: 1px solid #e2e2e2;
+                            font-family: "Changa", sans-serif;
+                            a{
+
+                                display: block;
+                                text-decoration: none;
+    color: #777777;
+    transition: all 0.5s ease;
+                                &:hover{
+                                    color: #2fc42b;
+                                }
+
+                                span{
+                                    float: right;
+    margin-right: 40px;
+    color: #333333;
+    font-weight: 400;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .sidebar-widget{
+                
+    margin-bottom: 40px;
+                .sidebar-title{
+                    margin-bottom: 30px;
+                    h2{
+                        font-size: 20px;
+    color: #333333;
+    font-weight: 500;
+    line-height: 35px;
+    text-transform: capitalize;
+
+                    }
+                }
+                .content2{
+                    padding: 20px 40px 20px;
+                    background-color: #f4f4f4;
+                    .post{
+                        padding-bottom: 12px;
+                        margin-bottom: 12px;
+                        border-bottom: 1px solid #dfdfdf;
+                        .content2-text{
+                            font-size: 16px;
+                            line-height: 26px;
+                            font-weight: 400;
+                            color: #333333;
+                            margin: 0px 0px 0px;
+                            font-family: "Changa", sans-serif;
+                            text-transform: capitalize;
+                            a{
+                                color: #333333;
+                                transition: all 0.3s ease;
+                                text-decoration: none;
+                                &:hover{
+                                    color: #2fc42b;
+                                }
+
+                            }
+                        }
+
+                        .post-info{
+                            font-size: 13px;
+    line-height: 26px;
+    color: #777777;
+
+                        }
+                    }
+
+                }
+            }
+
+            .sidebar-widget {
+             margin-bottom: 40px;
+                .sidebar-title{
+                    margin-bottom: 30px;
+                    h2{
+                        font-size: 20px;
+                        color: #333333;
+                        font-weight: 500;
+                        line-height: 35px;
+                        text-transform: capitalize;
+
+                    }
+                }
+            }
+            .content3{
+                background-color: #f4f4f4;
+                padding: 34px 20px;
+                height: 230px;
+              
+   
+                a{
+                    position: relative;
+                    float: left;
+                    line-height: 33px;
+                    padding: 10px 15px 10px;
+                    margin: 0px 4px 4px 0px;
+                    color: #777777;
+                    font-size: 14px;
+                    min-width: 134px;
+                    text-align: center;
+                    font-weight: 300;
+                    background: #ffffff;
+                    text-transform: capitalize;
+                    transition: all 0.3s ease;
+                    text-decoration: none;
+                    cursor: pointer;
+
+                    &:hover{
+                        background-color: #2fc42b;
+                        color: white;
+                        transition: all 0.5s ease;
+                    }
+
+                    &::after{
+                        clear: both;
+                    }
+                    
+                }
+            }
+        }
+    }
+
+}

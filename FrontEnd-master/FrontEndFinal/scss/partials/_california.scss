@@ -1,0 +1,116 @@
+#california{
+    position: relative;
+    padding: 135px 0px 110px;
+    background-color: #edf7ff;
+    .california-title{
+        margin-bottom: 60px;
+        text-align: center !important;
+        position: relative;
+        .cal-text{
+            position: relative;
+            color: #222222;
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 33px;
+            margin-bottom: 33px;
+            font-family: $font-ubuntu;
+            
+        }
+       span{
+            color: #2fc42b;
+            position: relative;
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 43px;
+            margin-bottom: 16px !important;
+            font-family: $font-ubuntu;
+            
+            
+        }
+    }
+    .services-block{
+        padding-left: 33px;
+    padding-right: 33px;
+    position: relative;
+    margin-bottom: 40px;
+    animation-name: digitalAnim;
+   
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+    
+    }
+    .inner-box{
+        position: relative;
+        display: block;
+        text-align: center;
+        padding: 22px 30px;
+        background-color: #ffffff;
+        img{
+            display: inline-block;
+            max-width: 100%;
+            height: auto;
+            vertical-align: middle;
+        }
+        .res{
+            position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #333333 !important;
+    margin-bottom: 20px;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+
+            &:hover{
+                color: #2fc42b !important;
+            }
+        }
+        .read-more{
+            background: transparent;    
+            text-decoration: none !important;
+            color: #888888;
+     
+            font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    &:hover{
+        color: #2fc42b;
+    }
+
+            .fa{
+                margin-left: 8px;
+                &:hover{
+                    color: #2fc42b;
+                }
+            
+            }
+        }
+    }
+}
+
+
+
+@keyframes digitalAnim{
+    0%{
+        transform: translateY(18px);   
+     }
+    25%{
+        transform: translateX(0px);            
+     }
+
+
+    50%{
+        transform: translateY(-16px);   
+     }
+     75%{
+        transform: translateX(24px);            
+     } 
+
+    90%{
+        transform: translateY(0px);   
+     }
+     100%{
+        transform: translateY(0px);            
+     }
+}
