@@ -1,13 +1,13 @@
 
 #services{
-    position: relative;
+
     padding: 140px 0px 100px;
     .services-title{
         margin-bottom: 50px;
-        position: relative;
+     
         text-align: center;
         .services-h{
-            position: relative;
+
     color: #222222;
     font-size: 35px;
     font-weight: 700;
@@ -18,7 +18,7 @@
             }
         }
         .services-text{
-      position: relative;
+    
     font-size: 15px;
     line-height: 25px;
     color: #aaaaaa;
@@ -61,12 +61,12 @@
         
     }
     .free{
-        position: relative;
+  
         font-size: 20px;
         font-weight: 500;
         margin-bottom: 5px;
         .rer{
-            position: relative;
+     
             color: #333333;
            text-decoration: none;
            &:hover{
@@ -76,7 +76,7 @@
 
     }
     .free-text{
-        position: relative;
+
     font-size: 15px;
     line-height: 25px;
     color: #aaaaaa;
@@ -89,5 +89,21 @@
     
     }
     
+    }
+}
+@media screen and (max-width:1024px){
+    .icon-service{
+        position: initial  !important   ;
+        width: 100%  !important;
+        text-align: center  !important;
+    }
+    .content-service{
+        padding-left: 0 !important;
+        text-align: center;
+    }
+}
+@media (min-width: 992px){
+    .container {
+        max-width: 100%;
     }
 }

@@ -1,0 +1,139 @@
+#contact{   
+    padding: 150px 0 25px;
+    .contact-info{
+        max-width: 960px;
+    display: block;
+    margin: 0 auto;
+        .contact-1{
+            margin-bottom: 50px;
+    padding: 0 30px;
+            .contact-in{
+                padding: 35px 15px 35px;
+    background-color: #f9f9f9;
+    text-align: center;
+              .contact-icon{
+                display: block;
+                margin-bottom: 15px;
+                  .e-mail{
+                
+                    .fa{
+                
+                        font-size: 42px;
+                        display: block;
+                        color: #2fc42b;
+
+                    }
+                  }
+              }
+              h5{
+                font-size: 16px;
+                line-height: 24px;
+                color: #333333;
+                font-weight: 500;
+                margin-bottom: 5px;
+
+              }
+              span{
+                display: block;
+                font-size: 15px;
+                line-height: 24px;
+                color: #89898a;
+                font-family: "Changa", sans-serif;
+                font-weight: 300;
+
+              }
+            }
+        }
+
+    }
+
+}
+
+
+
+.map-section{
+    position: relative;
+}
+.map-data{
+    text-align:center;
+    font-size:14px;
+    font-weight:400;
+    line-height:1.8em;
+}
+.map-data h6{
+    font-size:16px;
+    font-weight:700;
+    text-align:center;
+    margin-bottom:5px;
+    color:#121212;
+}
+.map-canvas{
+    height:540px;
+}
+
+
+
+.contact-form{
+    padding: 140px 0 50px;
+    .btn-style-one {
+        position: relative;
+        padding: 15px 38px;
+        line-height: 24px;
+        text-transform: uppercase;
+        background: #2f3340;
+        color: #ffffff;
+        border: 2px solid #2f3340;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-family: $font-ubuntu;
+        border-radius: 5px;
+        &:hover{
+            background: #2fc42b;
+            color: #ffffff;
+            border-color: #2fc42b
+        }
+      }
+      .form-group{
+          input,
+          select,
+          textarea{
+            display:block;
+            width:100%;
+
+            padding:85px 0px 10px;     
+            color:#232323;
+            font-size:15px;
+            background-color:white;
+            border: initial;
+            border-bottom:1px solid #d7d7d7;
+            &:focus{
+            border-bottom:1px solid #2fc42b;
+            outline: none;
+            }
+          }
+          textarea{
+              height: 120px;
+          }
+          input,
+          textarea{
+              &.error{
+                border-color:#ff0000;	
+              }
+          }
+          label{
+              &.error{
+                color:#ff0000;
+                font-size:15px;
+                text-transform:capitalize;
+                padding-top:5px;
+                line-height:24px;
+                font-weight:400;
+              }
+      }
+    }
+}
+
+
+
+

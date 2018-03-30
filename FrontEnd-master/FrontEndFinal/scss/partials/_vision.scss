@@ -5,11 +5,13 @@
         .image-in{
             margin-top: 10px;
             margin-bottom: 40px;
-            text-align: right;
+            width: 100% !important;
+         
             img{
                 display: inline-block;
-    max-width: 100%;
+   
     height: auto;
+    width: 100% !important;
             }
         }
     }
@@ -65,5 +67,11 @@
 @media only screen and (max-width:1023px){
 .vision .vision-image .image-in img{
     float: right !important;
+    width: 100% !important;
+  
+    left: 0;
 }
 }
+
+
+ 

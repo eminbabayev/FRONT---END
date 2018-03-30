@@ -3,6 +3,7 @@
     padding: 140px 0px 40px;
     .blog-image{
         margin-bottom: 30px !important;
+        width: 100% !important;
         .blog-class{
            
           
@@ -277,18 +278,20 @@
             .content3{
                 background-color: #f4f4f4;
                 padding: 34px 20px;
-                height: 230px;
+                // height: 230px;
+                display: flex;
+                flex-wrap: wrap;
               
    
                 a{
                     position: relative;
-                    float: left;
+            
                     line-height: 33px;
                     padding: 10px 15px 10px;
                     margin: 0px 4px 4px 0px;
                     color: #777777;
                     font-size: 14px;
-                    min-width: 134px;
+           
                     text-align: center;
                     font-weight: 300;
                     background: #ffffff;
@@ -313,3 +316,22 @@
     }
 
 }
+ @media screen and (min-width:1140px){
+    .content3{
+        a{
+            min-width: 134px;
+        }
+     }
+    }
+
+
+    @media screen and (max-width:1140px){
+        .widget-content{
+            padding: 20px 0 20px!important;
+        }
+        .blog-text{
+            padding-left: 15px !important;
+
+        }
+
+    }

@@ -1,22 +1,22 @@
 
     #sakai{
-        position: relative;
+    
         background-color: #252934;
         .footer{
             background-image: url('../img/pattern.png');
-            position: relative;
+
     background-position: center center;
     background-repeat: no-repeat;
     padding: 85px 0px 60px;
             .footer-left-right{
                 .footer-left1{
-                    position: relative;
+                
     margin-bottom: 40px;
                     .logo-widget{
-                        position: relative;
+                    
                         padding-right: 50px;
                         .logo{
-                            position: relative;
+                    
                             margin-bottom: 25px;
                             .logo-a{
                                 text-decoration: none;
@@ -29,51 +29,55 @@
 
                         }
                         .footer-text{
-                            position: relative;
+            
                             color: #bfbfbf;
                             font-size: 15px;
                             line-height: 25px;
                             margin-bottom: 15px;
                             font-family: "Changa", sans-serif;
                             font-weight: 400;
+                            
 
                         }
                         .contact{
-                            position: relative;
+                            
                             .info-list{
                                 font-size: 15px;
                                 line-height: 32px;
                                 color: #ffffff;
                                 font-weight: 500;
                                 font-family: "Ubuntu", sans-serif;
+                            
 
                             }
                         }
                     }
                 }
                 .footer-left2{
-                    position: relative;
+        
                     margin-bottom: 40px;
                     .links-widget{
                         padding-top: 15px ;
                         .left2-text{
-                            position: relative;
+                
                             color: #ffffff;
                             font-size: 17px;
                             font-weight: 700;
                             margin-bottom: 30px;
                             margin-left: 40px;
+                            
                             text-transform: uppercase;
 
                         }
                         .widget-content{
                             .left2-menu{
-                                position: relative;
+                                
                                 .left2-list{
-                                    position: relative;
+                             
                                     list-style: none;
+                                    
                                     a{
-                                        position: relative;
+                                       
     font-size: 15px;
     line-height: 32px;
     color: #bfbfbf;
@@ -91,32 +95,36 @@
 
             .footer-left-right{
                 .footer-right1{
-                    position: relative;
+                    
                     margin-bottom: 40px;
                     .links-widget{
                         padding-top: 15px;
                         .right1-text{
                             position: relative;
+                        
     color: #ffffff;
     font-size: 17px;
     font-weight: 700;
     margin-bottom: 30px;
     text-transform: uppercase;
     margin-left: 40px;
-
+    
                         }
                         .widget-content{
                             .right1-menu{
-                                position: relative;
+                            
                                 .right1-list{
                                     list-style: none;
+                            
                                     a{
-                                        position: relative;
+                                       
                                         font-size: 15px;
                                         line-height: 32px;
                                         color: #bfbfbf;
                                         font-weight: 400;
+                                        text-align: center;
                                         text-decoration: none;
+                                        
                                     }
 
                                 }
@@ -125,17 +133,18 @@
                     }
                 }
                 .footer-right2{
-                    position: relative;
+                
                     margin-bottom: 40px;
                     .newsletter-widget{
                         padding-top: 15px;
                         .right2-text{
-                            position: relative;
+                 
                             color: #ffffff;
                             font-size: 17px;
                             font-weight: 700;
                             margin-bottom: 30px;
                             text-transform: uppercase;
+                            
 
                         }
                         .newsletter-form{
@@ -144,12 +153,15 @@
                             margin-bottom: 35px;
                             form{
                                 .form-right-group{
-                                    position: relative;
+                                
                                     display: block;
                                     margin-bottom: 0px;
+                                    
+                                    
+                                    
                                 
                                     .form-inp{
-                                        position: relative;
+                                     
     display: block;
     width: 100%;
     line-height: 30px;
@@ -161,10 +173,16 @@
     background-color: #282d38;
     border: 1px solid transparent;
     transition: all 0.3s ease;
+    &:focus{
+        outline: 1px solid #2fc42b !important;
+        transition: all 0.3s ease;
+        box-shadow: none;
+    }
 
                                     }
                                     .theme-btn{
                                         padding: 7px 32px;
+                                    
     line-height: 26px;
     text-transform: uppercase;
     background: #2fc42b;
@@ -176,27 +194,43 @@
     position: absolute;
     right: 0;
     top: 0;
+    cursor: pointer;
+
+    
+    
+    &:hover{
+            background: transparent;
+            // background: #2fc42b;
+            color: #2fc42b;
+        
+       
+    }    
 
                                     }
                                 }
                             }
                         }
                         .social{
-                            position: relative;
+                           
                             .social-list{
-                                position: relative;
+                               
     margin-bottom: 5px;
     margin-right:8px;
     display: inline-block;  
        a{
-        position: relative;
+  
         width: 30px;
         height: 30px;
         font-size: 14px;
         color: #4b515f;
         line-height: 30px;
-        text-align: center;
+
         display: inline-block;
+      
+        &:hover{
+            color: #2fc42b;
+            transition: all 0.5s ease;
+        }
 
  
 
@@ -212,5 +246,17 @@
                     }
                 }
             }
+        }
+    }
+
+    @media screen and (max-width: 465px){
+        .theme-btn{
+            position: relative !important;
+            width: 100%;
+        
+        }
+        
+        .logo-widget{
+            padding-right: 0 !important;
         }
     }

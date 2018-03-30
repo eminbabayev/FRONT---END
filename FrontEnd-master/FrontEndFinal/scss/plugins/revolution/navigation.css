@@ -21,7 +21,7 @@ website:    http://www.themepunch.com
 .ares.tparrows:hover {
 }
 .ares.tparrows:before {
-  font-family: "FontAwesome";
+  font-family: "revicons";
   font-size:25px;
   color:#aaa;
   display:block;
@@ -34,10 +34,10 @@ website:    http://www.themepunch.com
     position:relative;
 }
 .ares.tparrows.tp-leftarrow:before {
-  content: "\f053";
+  content: "\e81f";
 }
 .ares.tparrows.tp-rightarrow:before {
-  content: "\f054";
+  content: "\e81e";
 }
 .ares.tparrows:hover:before {
  color:#000;

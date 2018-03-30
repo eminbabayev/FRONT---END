@@ -114,7 +114,7 @@ nav{
         right: 90px;
         border: 1px solid rgba(0,0,0,.15);
         box-shadow: 0 6px 12px rgba(0,0,0,.175);
-        border-top: 3px solid green !important;        
+        border-top: 3px solid #2fc42b !important;        
         .input-group{
             button{
                 background: #ffffff;
@@ -125,7 +125,7 @@ nav{
                 padding: 10px;
                 &:hover{
                     background: #ffffff;
-                    color: green;
+                    color: #2dc42b;
                     border: 1px solid #ced4da; 
                     border-left: none;
                                          
@@ -148,7 +148,7 @@ nav{
         font-size: 15px;
         transition: all 0.3s;
         &:hover{
-            color:green;
+            color:#2dc42b;
             cursor: pointer;
         }
     }
@@ -188,6 +188,9 @@ nav{
     //     margin-top: 0px;
     //     background: #343a40;
     // }
+    nav{
+        position: initial;
+    }
     .nav-item{
         margin-right: 0px !important;
         margin-left: 20px !important;       
