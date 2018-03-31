@@ -19,398 +19,282 @@
   <link href="scss/plugins/revolution/navigation.css" rel="stylesheet" type="text/css">
   <!-- REVOLUTION NAVIGATION STYLES -->
   <link rel="stylesheet" href="scss/plugins/owl.carousel.min.css">
-  <link rel="stylesheet" href="scss/responsive.css">
+  <link rel="stylesheet" type="text/css" href="js/plugins/fancybox-master/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.1/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="scss/plugins/responsive.css">
   <link rel="stylesheet" href="scss/style.css">
 </head>
+
 <body>
 
 
-    <!-- Preloader -->
+  <!-- Preloader -->
   <div class="preloader"></div>
-   <nav class="navbar w-100 justify-content-center navbar-expand-md navbar-fixed-top navbar-light mynav-bg ">
+  <!-- Navbar -->
+  <nav class="navbar w-100 justify-content-center navbar-expand-md navbar-fixed-top navbar-light mynav-bg ">
 
-      <div class="mynav d-flex justify-content-between">
-        <a class="nav-brand" href="index.html">
-          <img src="img/logo.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="mynav d-flex justify-content-between">
+      <a class="nav-brand" href="index.html">
+        <img src="img/logo/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse justify-content-end navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav d-flex justify-content-between">
+      <div class="collapse justify-content-end navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav d-flex justify-content-between">
 
 
-            <li class="nav-item dropdown">
+          <li class="nav-item dropdown">
 
-              <a class="nav-link mydropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                Home
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="index.html">Homepage One</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="index.html">Homepage Two</a>
-                <div class="dropdown-divider"></div>
-                <div class="dropdown dropdown-inner">
-                  <a class="dropdown-item mydropdown-toggle-inner " href="index.html">Headers style</a>
-                  <div class="dropdown-menu dropdown-menu-inner">
-                    <a class="dropdown-item" href="index.html">Homepage One</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="index.html">Homepage Two</a>
-                  </div>
+            <a class="nav-link mydropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="index.html">Homepage One</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="index.html">Homepage Two</a>
+              <div class="dropdown-divider"></div>
+              <div class="dropdown dropdown-inner">
+                <a class="dropdown-item mydropdown-toggle-inner " href="index.html">Headers style</a>
+                <div class="dropdown-menu dropdown-menu-inner">
+                  <a class="dropdown-item" href="index.html">Homepage One</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="index.html">Homepage Two</a>
                 </div>
+              </div>
 
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link mydropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                About Us
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="about.html">About Us</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="about.html">Team</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="about.html">Pricing</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link mydropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                Services
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="services.html">Services Type 01</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="services.html">Services Type 02</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="services.html">Keyword Targeting</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="services.html">Content Marketing</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="services.html">Seo Services</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="services.html">Optimize For Seo</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link mydropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                Case Studies
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="case-studies.html">Case Studies</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="case-single.html">Case Studies Single</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link mydropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                Blog
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="blog-grid.html">Blog Classic Layout</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="blog-grid.html">Blog Grid Layout</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="blog-grid.html">Blog Single</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="blog-grid.html">404 Error Page</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-          <div class="nav-item search-icon">
-            <i class="fa fa-search"></i>
-          </div>
-          <div class="form-container">
-            <div class="input-group">
-              <input type="text" class="form-control border-right-0" placeholder="Search Here">
-              <span class="input-group-btn">
-                <button class="btn btn-secondary" type="button">
-                  <i class="fa fa-search"></i>
-                </button>
-              </span>
             </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link mydropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              About Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="about.html">About Us</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="about.html">Team</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="about.html">Pricing</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link mydropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="services.html">Services Type 01</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="services.html">Services Type 02</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="services.html">Keyword Targeting</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="services.html">Content Marketing</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="services.html">Seo Services</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="services.html">Optimize For Seo</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link mydropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Case Studies
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="case-studies.html">Case Studies</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="case-single.html">Case Studies Single</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link mydropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Blog
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="blog-grid.html">Blog Classic Layout</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="blog-grid.html">Blog Grid Layout</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="blog-grid.html">Blog Single</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="blog-grid.html">404 Error Page</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <div class="nav-item search-icon">
+          <i class="fa fa-search"></i>
+        </div>
+        <div class="form-container">
+          <div class="input-group">
+            <input type="text" class="form-control border-right-0" placeholder="Search Here">
+            <span class="input-group-btn">
+              <button class="btn btn-secondary" type="button">
+                <i class="fa fa-search"></i>
+              </button>
+            </span>
           </div>
-
         </div>
 
       </div>
-    </nav>
-<header>
 
-</header>
+    </div>
+  </nav>
+  <header>
+
+  </header>
   <!-- Finish HEADER section -->
 
- <!--Main Slider-->
- <section class="main-slider main-slider-one">
-  <div class="rev_slider_wrapper fullwidthbanner-container"  id="rev_slider_one_wrapper" data-source="gallery">
+  <!--Main Slider-->
+  <section class="main-slider main-slider-one">
+    <div class="rev_slider_wrapper fullwidthbanner-container" id="rev_slider_one_wrapper" data-source="gallery">
       <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
-          <ul>
-              <!-- Slide 1 -->
-              <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-1.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                  
-                  <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="img//image-1.jpg"> 
-                  
-                  <div class="tp-caption tp-resizeme" 
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="text"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-width="none"
-                  data-hoffset="['473','15','15','15']"
-                  data-voffset="['260','180','140','120']"
-                  data-x="['left','left','left','left']"
-                  data-y="['top','top','top','top']"
-                  data-textalign="['top','top','top','top']"
-                  data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                      <h4>Welcome to Sakai </h4>
-                  </div>
+        <ul>
+          <!-- Slide 1 -->
+          <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7"
+            data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default"
+            data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
+            data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-1.jpg"
+            data-title="Slide Title" data-transition="parallaxvertical">
 
-                  <div class="tp-caption tp-resizeme" 
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="text"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-fontsize="['64','40','36','24']"
-                  data-width="none"
-                  data-hoffset="['473','15','15','15']"
-                  data-voffset="['300','220','190','160']"
-                  data-x="['left','left','left','left']"
-                  data-y="['top','top','top','top']"
-                  data-textalign="['top','top','top','top']"
-                  data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    <h2>Best SEO <br> Solution Theme</h2>
-                  </div>
-                  
-                  <div class="tp-caption" 
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="text"
-                  data-height="none"
-                  data-whitespace="normal"
-                  data-width="['670','470','600','400']"
-                  data-hoffset="['473','15','15','15']"
-                  data-voffset="['460','350','310','270']"
-                  data-x="['left','left','left','left']"
-                  data-y="['top','top','top','top']"
-                  data-textalign="['top','top','top','top']"
-                  data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    <div class="text">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional</div>
-                  </div>
-                  
-                  <div class="tp-caption tp-resizeme" 
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="text"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-width="none"
-                  data-hoffset="['473','15','15','15']"
-                  data-voffset="['530','470','410','400']"
-                  data-x="['left','left','left','left']"
-                  data-y="['top','top','top','top']"
-                  data-textalign="['top','top','top','top']"
-                  data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                    <a href="#" class="theme-btn btn-style-one">Know More</a>
-                  </div>
+            <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat"
+              data-no-retina="" src="img//image-1.jpg">
 
-                  
-                  <div class="tp-caption tp-resizeme big-ipad-hidden" 
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="shape"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-width="none"
-                  data-hoffset="['-150','15','15','15']"
-                  data-voffset="['50','0','0','0']"
-                  data-x="['left','left','left','left']"
-                  data-y="['bottom','bottom','bottom','bottom']"
-                  data-textalign="['top','top','top','top']"
-                  data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":3000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                      <figure class="content-image"><img src="img/raketa.png" alt=""></figure>
-                  </div>
+            <div class="tp-caption tp-resizeme" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+              data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-whitespace="nowrap"
+              data-width="none" data-hoffset="['473','15','15','15']" data-voffset="['260','180','140','120']" data-x="['left','left','left','left']"
+              data-y="['top','top','top','top']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+              <h4>Welcome to Sakai </h4>
+            </div>
+
+            <div class="tp-caption tp-resizeme" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+              data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-whitespace="nowrap"
+              data-fontsize="['64','40','36','24']" data-width="none" data-hoffset="['473','15','15','15']" data-voffset="['300','220','190','160']"
+              data-x="['left','left','left','left']" data-y="['top','top','top','top']" data-textalign="['top','top','top','top']"
+              data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+              <h2>Best SEO
+                <br> Solution Theme</h2>
+            </div>
+
+            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]"
+              data-responsive_offset="on" data-type="text" data-height="none" data-whitespace="normal" data-width="['670','470','600','400']"
+              data-hoffset="['473','15','15','15']" data-voffset="['460','350','310','270']" data-x="['left','left','left','left']"
+              data-y="['top','top','top','top']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+              <div class="text">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital
+                divide with additional</div>
+            </div>
+
+            <div class="tp-caption tp-resizeme" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+              data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-whitespace="nowrap"
+              data-width="none" data-hoffset="['473','15','15','15']" data-voffset="['530','470','410','400']" data-x="['left','left','left','left']"
+              data-y="['top','top','top','top']" data-textalign="['top','top','top','top']" data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+              <a href="#" class="theme-btn btn-style-one">Know More</a>
+            </div>
 
 
-                  <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme big-ipad-hidden" 
-                  data-basealign="slide"
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="shape"
-                  data-height="auto"
-                  data-whitespace="nowrap"
-                  data-width="none"
-                  data-hoffset="['0','0','0','0']"
-                  data-voffset="['0','0','0','0']"
-                  data-x="['left','left','left','left']"
-                  data-y="['bottom','bottom','bottom','bottom']"
-                  data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                      <figure class="content-image"><img src="img/content-image-1.png" alt=""></figure>
-                  </div>
-
-              </li>
-
-              <!-- Slide 2 -->
-              <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-1.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                  
-                  <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="img/image-1.jpg"> 
-                  
-                  <div class="tp-caption tp-resizeme" 
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="text"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-width="none"
-                  data-hoffset="['473','15','15','15']"
-                  data-voffset="['260','180','140','120']"
-                  data-x="['left','left','left','left']"
-                  data-y="['top','top','top','top']"
-                  data-textalign="['top','top','top','top']"
-                  data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                      <h4>Welcome to Sakai </h4>
-                  </div>
-
-                  <div class="tp-caption tp-resizeme" 
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="text"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-fontsize="['64','40','36','24']"
-                  data-width="none"
-                  data-hoffset="['473','15','15','15']"
-                  data-voffset="['300','220','190','160']"
-                  data-x="['left','left','left','left']"
-                  data-y="['top','top','top','top']"
-                  data-textalign="['top','top','top','top']"
-                  data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                      <h2>Best SEO <br> Solution Theme</h2>
-                  </div>
-                  
-                  <div class="tp-caption" 
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="text"
-                  data-height="none"
-                  data-whitespace="normal"
-                  data-width="['670','470','600','400']"
-                  data-hoffset="['473','15','15','15']"
-                  data-voffset="['460','350','310','270']"
-                  data-x="['left','left','left','left']"
-                  data-y="['top','top','top','top']"
-                  data-textalign="['top','top','top','top']"
-                  data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                      <div class="text">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional</div>
-                  </div>
-                  
-                  <div class="tp-caption tp-resizeme" 
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="text"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-width="none"
-                  data-hoffset="['473','15','15','15']"
-                  data-voffset="['530','470','410','400']"
-                  data-x="['left','left','left','left']"
-                  data-y="['top','top','top','top']"
-                  data-textalign="['top','top','top','top']"
-                  data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                      <a href="#" class="theme-btn btn-style-one" style="display:inline-block">Know More</a>
-                  </div>
-
-                  
-                  <div class="tp-caption tp-resizeme big-ipad-hidden" 
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="shape"
-                  data-height="none"
-                  data-whitespace="nowrap"
-                  data-width="none"
-                  data-hoffset="['-150','15','15','15']"
-                  data-voffset="['50','0','0','0']"
-                  data-x="['left','left','left','left']"
-                  data-y="['bottom','bottom','bottom','bottom']"
-                  data-textalign="['top','top','top','top']"
-                  data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":3000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                      <figure class="content-image"><img src="img/raketa.png" alt=""></figure>
-                  </div>
+            <div class="tp-caption tp-resizeme big-ipad-hidden" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+              data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="shape" data-height="none" data-whitespace="nowrap"
+              data-width="none" data-hoffset="['-150','15','15','15']" data-voffset="['50','0','0','0']" data-x="['left','left','left','left']"
+              data-y="['bottom','bottom','bottom','bottom']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":3000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+              <figure class="content-image">
+                <img src="img/raketa.png" alt="">
+              </figure>
+            </div>
 
 
-                  <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme big-ipad-hidden" 
-                  data-basealign="slide"
-                  data-paddingbottom="[0,0,0,0]"
-                  data-paddingleft="[0,0,0,0]"
-                  data-paddingright="[0,0,0,0]"
-                  data-paddingtop="[0,0,0,0]"
-                  data-responsive_offset="on"
-                  data-type="shape"
-                  data-height="auto"
-                  data-whitespace="nowrap"
-                  data-width="none"
-                  data-hoffset="['0','0','0','0']"
-                  data-voffset="['0','0','0','0']"
-                  data-x="['left','left','left','left']"
-                  data-y="['bottom','bottom','bottom','bottom']"
-                  data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
-                      <figure class="content-image"><img src="img/content-image-1.png" alt=""></figure>
-                  </div>
+            <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme big-ipad-hidden" data-basealign="slide" data-paddingbottom="[0,0,0,0]"
+              data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on"
+              data-type="shape" data-height="auto" data-whitespace="nowrap" data-width="none" data-hoffset="['0','0','0','0']"
+              data-voffset="['0','0','0','0']" data-x="['left','left','left','left']" data-y="['bottom','bottom','bottom','bottom']"
+              data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+              <figure class="content-image">
+                <img src="img/content-image-1.png" alt="">
+              </figure>
+            </div>
 
-              </li>
-          </ul>
+          </li>
+
+          <!-- Slide 2 -->
+          <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7"
+            data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default"
+            data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
+            data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="images/main-slider/image-1.jpg"
+            data-title="Slide Title" data-transition="parallaxvertical">
+
+            <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat"
+              data-no-retina="" src="img/image-1.jpg">
+
+            <div class="tp-caption tp-resizeme" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+              data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-whitespace="nowrap"
+              data-width="none" data-hoffset="['473','15','15','15']" data-voffset="['260','180','140','120']" data-x="['left','left','left','left']"
+              data-y="['top','top','top','top']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+              <h4>Welcome to Sakai </h4>
+            </div>
+
+            <div class="tp-caption tp-resizeme" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+              data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-whitespace="nowrap"
+              data-fontsize="['64','40','36','24']" data-width="none" data-hoffset="['473','15','15','15']" data-voffset="['300','220','190','160']"
+              data-x="['left','left','left','left']" data-y="['top','top','top','top']" data-textalign="['top','top','top','top']"
+              data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+              <h2>Best SEO
+                <br> Solution Theme</h2>
+            </div>
+
+            <div class="tp-caption" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]"
+              data-responsive_offset="on" data-type="text" data-height="none" data-whitespace="normal" data-width="['670','470','600','400']"
+              data-hoffset="['473','15','15','15']" data-voffset="['460','350','310','270']" data-x="['left','left','left','left']"
+              data-y="['top','top','top','top']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+              <div class="text">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital
+                divide with additional</div>
+            </div>
+
+            <div class="tp-caption tp-resizeme" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+              data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-whitespace="nowrap"
+              data-width="none" data-hoffset="['473','15','15','15']" data-voffset="['530','470','410','400']" data-x="['left','left','left','left']"
+              data-y="['top','top','top','top']" data-textalign="['top','top','top','top']" data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+              <a href="#" class="theme-btn btn-style-one" style="display:inline-block">Know More</a>
+            </div>
+
+
+            <div class="tp-caption tp-resizeme big-ipad-hidden" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+              data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="shape" data-height="none" data-whitespace="nowrap"
+              data-width="none" data-hoffset="['-150','15','15','15']" data-voffset="['50','0','0','0']" data-x="['left','left','left','left']"
+              data-y="['bottom','bottom','bottom','bottom']" data-textalign="['top','top','top','top']" data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":2000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":3000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+              <figure class="content-image">
+                <img src="img/raketa.png" alt="">
+              </figure>
+            </div>
+
+
+            <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme big-ipad-hidden" data-basealign="slide" data-paddingbottom="[0,0,0,0]"
+              data-paddingleft="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on"
+              data-type="shape" data-height="auto" data-whitespace="nowrap" data-width="none" data-hoffset="['0','0','0','0']"
+              data-voffset="['0','0','0','0']" data-x="['left','left','left','left']" data-y="['bottom','bottom','bottom','bottom']"
+              data-frames='[{"from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'>
+              <figure class="content-image">
+                <img src="img/content-image-1.png" alt="">
+              </figure>
+            </div>
+
+          </li>
+        </ul>
       </div>
-  </div>
-</section>
-<!--End Main Slider-->
+    </div>
+  </section>
+  <!--End Main Slider-->
 
 
-  
 
-   
+
+
 
 
 
@@ -438,10 +322,10 @@
           <div class="row">
             <div class="column col-lg-9 col-md-12 col-sm-12 col-xs-12">
               <div class="row">
-                <div class="form-group col-md-6 col-sm-12 co-xs-12 pl-0">
+                <div class="form-group col-md-6 col-sm-12 co-xs-12 ">
                   <input type="text" class="form-control" name="text" value="" placeholder="Your Website" required>
                 </div>
-                <div class="form-group col-md-6 col-sm-12 co-xs-12 pr-0">
+                <div class="form-group col-md-6 col-sm-12 co-xs-12 ">
                   <input type="email" class="form-control" name="email" value="" placeholder="Your Email" required>
                 </div>
               </div>
@@ -465,7 +349,7 @@
 
 
 
-<!-- Start CALIFORNIA section -->
+  <!-- Start CALIFORNIA section -->
   <section id="california">
     <div class="auto-container">
       <div class="california-title">
@@ -540,7 +424,7 @@
 
 
 
-<!-- Start FACT section -->
+  <!-- Start FACT section -->
   <section id="fact">
     <div class="facts">
       <div class="auto-container">
@@ -552,7 +436,7 @@
                 <i class=" pt1 fa fa-instagram"></i>
 
                 <h4 class="count-title">Projects</h4>
-                <h4 class="timer"data-speed="1000" data-refresh-interval="1" data-to="2000">2000</h4>
+                <h4 class="timer" data-speed="1000" data-refresh-interval="1" data-to="2000">2000</h4>
 
               </div>
             </div>
@@ -563,7 +447,7 @@
                 <span class="icon"></span>
                 <i class=" pt2 fa fa-twitter"></i>
                 <h4 class="count-title">Active Clients</h4>
-                <h4 class="timer"data-speed="900" data-refresh-interval="1" data-to="500">500</h4>
+                <h4 class="timer" data-speed="900" data-refresh-interval="1" data-to="500">500</h4>
               </div>
             </div>
           </div>
@@ -591,19 +475,19 @@
       </div>
     </div>
   </section>
-<!-- Finish FACT section -->
+  <!-- Finish FACT section -->
 
 
 
 
 
-<!-- Start BUSINESS section -->
+  <!-- Start BUSINESS section -->
   <section id="business">
     <div class="auto-container">
       <div class="row">
         <div class=" image-business col-md-12  col-lg-5 col-sm-12 col-xs-12 " style="text-align:center;">
           <div class="imager ">
-              <img class="wow" src="img/business/image-1.png" alt="">
+            <img class="wow" src="img/business/image-1.png" alt="">
           </div>
         </div>
         <div class="text-business col-md-12 col-lg-7 col-sm-12 col-xs-12">
@@ -908,40 +792,47 @@
 
 
 
-  <section id="comment-slider">
-    <div class="comment-section">
+
+  <!-- Start PEOPLE section -->
+
+
+
+
+
+  <section id="real-slider">
       <div class="auto-container">
         <div class="row">
 
           <div class="col-md-12 my-display">
-            <div class="comment-prof-boxes">
-              <ul class="profiles text-center pl-0">
-                <li class="prof-box prof-show" id="prof1">
+            <div class="real-top-boxes">
+              <ul class="profiles text-center">
+                <li class="top-r top-go" id="prof1">
                   <img src="img/people/testimonial-thumb-2 .png" alt="">
                 </li>
-                <li class="prof-box" id="prof2">
+                <li class="top-r" id="prof2">
                   <img src="img/people/testimonial-thumb-1.png" alt="">
                 </li>
-                <li class="prof-box" id="prof3">
+                <li class="top-r" id="prof3">
                   <img src="img/people/testimonial-thumb-3.png" alt="">
                 </li>
-                <li class="prof-box" id="prof4">
+                <li class="top-r" id="prof4">
                   <img src="img/people/testimonial-thumb-4.png" alt="">
                 </li>
               </ul>
             </div>
-            <div class="comment-text-box">
-              <div class="comment-text">
-                <div class="text1 comment-prof-text showing" data-comment="prof1">
+            <div class="real-text-r">
+              <div class="real-text">
+                <div class="text1 real-top-text showing" data-real="prof1">
                   <p> &nbsp When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
                     survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
-                    unchanged.</p>
+                    unchanged.
+                  </p>
                   <h3>Thaliya cobb</h3>
                   <p class="text-gray">Ui Designer</p>
 
                 </div>
 
-                <div class="text2 comment-prof-text" data-comment="prof2">
+                <div class="text2 real-top-text" data-real="prof2">
                   <p> &nbsp Iterative approaches to corporate strategy foster collaborative thinking to further the overall value
                     proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity
                     and empowerment.</p>
@@ -949,14 +840,14 @@
                   <p class="text-gray">Ui Designer</p>
 
                 </div>
-                <div class="text3 comment-prof-text" data-comment="prof3">
+                <div class="text3 real-top-text" data-real="prof3">
                   <p> &nbsp Many desktop publishing packages and web page editors now use Lorem Ipsum as their default mode l
                     text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
                     <h3>Thaliya cobb</h3>
                     <p class="text-gray">Ui Designer</p>
 
                 </div>
-                <div class="text4 comment-prof-text" data-comment="prof4">
+                <div class="text4 real-top-text" data-real="prof4">
                   <p> &nbsp Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
                     Iterative approaches to corporate strategy foster collaborative thinking to further the overall value
                     proposition.
@@ -966,23 +857,28 @@
                 </div>
 
               </div>
-              <div class="next-comment comment-btn">
+              <div class="next-real real-btn">
                 <i class="fa fa-caret-right"></i>
               </div>
-              <div class="prev-comment comment-btn">
+              <div class="prev-real real-btn">
                 <i class="fa fa-caret-left"></i>
               </div>
             </div>
           </div>
         </div>
-      </div>
+    
   </section>
 
+  <!-- Finish PEOPLE section -->
 
 
 
 
-<!-- Start CARD section -->
+
+
+
+
+  <!-- Start CARD section -->
   <section id="card">
     <div class="auto-container">
       <div class="card-title">
@@ -996,7 +892,7 @@
       <div class="row">
         <div class="card-box  col-lg-4 col-md-6 col-sm-12">
           <div class="card-in">
-            <div class="card-start" style="background-image:url('img/pricing-1.jpg');">
+            <div class="card-start" style="background-image:url('img/pricing/pricing-1.jpg');">
               <h4 class="basic">Basic</h4>
               <h3 class="price">15
                 <span class="dollar" style="    font-size: 40px;">$</span>
@@ -1019,16 +915,16 @@
         </div>
         <div class="card-box col-lg-4 col-md-6 col-sm-12 ">
           <div class="card-in">
-            <div class="card-start" style="background-image:url('img/pricing-2.jpg');">
-              <h4 class="basic">Basic</h4>
-              <h3 class="price">15
+            <div class="card-start" style="background-image:url('img/pricing/pricing-2.jpg');">
+              <h4 class="basic">Standard</h4>
+              <h3 class="price">25
                 <span class="dollar" style="    font-size: 40px;">$</span>
               </h3>
             </div>
             <div class="card-center">
               <ul class="card-menu list-unstyled">
                 <li class="card-li">50GB Bandwidth</li>
-                <li class="card-li">Business & Financ Analysing</li>
+                <li class="card-li" style="color: #2fc42b;">Business & Financ Analysing</li>
                 <li class="card-li">24
                   <span class="support" style="color: #2fc42b;">hour support</span>
                 </li>
@@ -1042,15 +938,15 @@
         </div>
         <div class="card-box  col-lg-4 col-md-6 col-sm-12">
           <div class="card-in">
-            <div class="card-start" style="background-image:url('img/pricing-3.jpg');">
-              <h4 class="basic">Basic</h4>
-              <h3 class="price">15
+            <div class="card-start" style="background-image:url('img/pricing/pricing-3.jpg');">
+              <h4 class="basic">Premium</h4>
+              <h3 class="price">35
                 <span class="dollar" style="    font-size: 40px;">$</span>
               </h3>
             </div>
             <div class="card-center">
               <ul class="card-menu list-unstyled">
-                <li class="card-li">50GB Bandwidth</li>
+                <li class="card-li" style="color: #2fc42b;">50GB Bandwidth</li>
                 <li class="card-li">Business & Financ Analysing</li>
                 <li class="card-li">24
                   <span class="support" style="color: #2fc42b;">hour support</span>
@@ -1079,19 +975,19 @@
 
     <div class="owl-carousel owl-theme">
       <div class="item">
-        <img src="img/11.png" alt="">
+        <img src="img/carousel/11.png" alt="">
       </div>
       <div class="item">
-        <img src="img/22.png" alt="">
+        <img src="img/carousel/22.png" alt="">
       </div>
       <div class="item">
-        <img src="img/33.png" alt="">
+        <img src="img/carousel/33.png" alt="">
       </div>
       <div class="item">
-        <img src="img/44.png" alt="">
+        <img src="img/carousel/44.png" alt="">
       </div>
       <div class="item">
-        <img src="img/55.png" alt="">
+        <img src="img/carousel/55.png" alt="">
       </div>
 
     </div>
@@ -1119,7 +1015,7 @@
           <div class="check-in">
             <div class="check-start">
               <a href="#">
-                <img src="img/news-1.jpg" alt="">
+                <img src="img/news/news-1.jpg" alt="">
               </a>
             </div>
             <div class="check-end-left">
@@ -1146,7 +1042,7 @@
           <div class="check-in">
             <div class="check-start">
               <a href="#">
-                <img src="img/news-2.jpg" alt="">
+                <img src="img/news/news-2.jpg" alt="">
               </a>
             </div>
             <div class="check-end-left">
@@ -1173,7 +1069,7 @@
           <div class="check-in">
             <div class="check-start">
               <a href="#">
-                <img src="img/news-3.jpg" alt="">
+                <img src="img/news/news-3.jpg" alt="">
               </a>
             </div>
             <div class="check-end-left">
@@ -1216,7 +1112,7 @@
                 <div class="footer-widget logo-widget">
                   <div class="logo">
                     <a href="#" class="logo-a">
-                      <img src="img/logo-2.png" alt="">
+                      <img src="img/logo/logo-2.png" alt="">
                     </a>
                   </div>
                   <div class="footer-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
@@ -1335,7 +1231,7 @@
 
 
 
-<!-- Start END footer -->
+  <!-- Start END footer -->
   <footer id="end">
     <div class="end-text">
       Copyright © 2018 Sakai. All Rights Reserved.
@@ -1359,7 +1255,7 @@
 
 
 
- 
+
 
 
 
@@ -1393,9 +1289,12 @@
   <script src="js/plugins/revolution/revolution.extension.parallax.min.js"></script>
   <script src="js/plugins/revolution/revolution.extension.slideanims.min.js"></script>
   <script src="js/plugins/revolution/revolution.extension.video.min.js"></script>
- 
-  <script src="js/main-slider-script.js"></script>
+
+  <script src="js/plugins/main-slider-script.js"></script>
   <!--End Revolujsion Slider-->
+  <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.1/jquery.fancybox.min.js">
+	<script src="js/plugins/dist/jquery.fancybox.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/plugins/jquery.countTo.js"></script>
   <script src="js/plugins/owl.carousel.min.js"></script>

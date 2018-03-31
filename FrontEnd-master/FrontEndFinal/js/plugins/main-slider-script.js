@@ -7,7 +7,7 @@
         }else{
             revapi486 = tpj("#rev_slider_one").show().revolution({
 			sliderType:"standard",
-                jsFileLocation:"plugins/revolution/",
+                jsFileLocation:"plugins/revolution/js/",
                 sliderLayout:"fullwidth",
                 dottedOverlay:"none",
                 delay:10000,
@@ -87,7 +87,7 @@
         }else{
             revapi486 = tpj("#rev_slider_two").show().revolution({
             sliderType:"standard",
-                jsFileLocation:"plugins/revolution/",
+                jsFileLocation:"plugins/revolution/js/",
                 sliderLayout:"fullwidth",
                 dottedOverlay:"none",
                 delay:10000,

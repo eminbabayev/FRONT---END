@@ -1,0 +1,124 @@
+.main-slider{
+	position:relative;
+	z-index:10;
+}
+
+.main-slider .tp-caption{
+	z-index:5 ;
+}
+
+.main-slider .tp-dottedoverlay{
+    background:none !important;
+}
+
+.main-slider h2{
+	font-size:70px;
+	color: #ffffff;
+	font-weight:700;
+	line-height:1.1em !important;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform:capitalize;
+}
+
+.main-slider h4{
+	font-size:25px;
+	color:#ffffff;
+	font-weight:700;
+	line-height:1.4em;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform:capitalize;
+}
+
+.main-slider .text{
+	position:relative;
+	font-size:15px;
+	color:#ffffff;
+	font-weight:300;
+	line-height:25px;
+	font-family: 'Changa', sans-serif;
+}
+
+.main-slider .title{
+	position:relative;
+	color:#ffffff;
+	font-size:35px;
+	font-weight:400;
+	letter-spacing:1px;
+	line-height:1.2em;
+	text-transform:capitalize;
+}
+
+.main-slider .theme-btn{
+    z-index: 999999 !important;
+    display: inline-block!important;
+    padding: 19px 50px;
+    border-radius: 6px;
+    background-color: #2f3340;
+    text-decoration: none;
+    color: white;
+    text-transform:uppercase;
+    font-weight: 600;
+
+    &:hover{
+        background-color: #2fc42b;
+        color: white;
+    }
+
+ 
+}
+
+.main-slider .tp-bannertimer{
+	display:none !important;	
+}
+.main-slider-two{
+	position: relative;
+}
+.main-slider-two h4{
+	font-size:30px;
+	color:#2f3340;
+	line-height:1.2em;
+	font-weight: 700;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform:capitalize;
+}
+
+.main-slider-two h1{
+	font-size:218px;
+	color: #fefefe;
+	font-weight:700;
+	line-height:1em;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform:capitalize;
+}
+
+
+.main-slider-two .text{
+	position:relative;
+	font-size:20px;
+	color:#ffffff;
+	font-weight:300;
+	line-height:25px;
+	font-family: 'Changa', sans-serif;
+}
+
+
+.main-slider-two .theme-btn{
+    padding: 15px 30px;
+    background-color: #2fc42b;
+   
+}
+
+@media screen and (max-width:1121px){
+.content-image{
+    display: none;
+.tp-leftarrow, .tp-rightarrow{
+    display: none;
+}
+}
+.text{
+    margin-top: 30px;
+}
+h2{
+    font-size: 10px;
+}
+}
