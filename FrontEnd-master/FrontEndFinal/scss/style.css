@@ -321,13 +321,13 @@ nav {
 
 @keyframes digitalAnim {
   0% {
-    transform: translateY(18px); }
+    transform: translateY(5px); }
   25% {
-    transform: translateX(0px); }
+    transform: translateX(5px); }
   50% {
-    transform: translateY(-16px); }
+    transform: translateY(0px); }
   75% {
-    transform: translateX(24px); }
+    transform: translateY(-9px); }
   90% {
     transform: translateY(0px); }
   100% {
@@ -620,13 +620,63 @@ nav {
 @media (min-width: 992px) {
   .container {
     max-width: 100%; } }
-#people {
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #2f3340;
-  padding: 140px 0 130px;
-  background-image: url(../img/99.jpg); }
+@media screen and (max-width: 768px) {
+  .services-text br {
+    display: none; } }
+.bxslider {
+  background-image: url("../img/people/99.jpg");
+  padding-top: 50px; }
+
+.bxslider img {
+  width: 100%; }
+
+.bxslider .images {
+  text-align: center; }
+
+.bxslider .images a {
+  display: inline-block;
+  background: #777777;
+  width: 100%; }
+
+.bxslider .images div {
+  margin-bottom: 10px; }
+
+.bxslider .images .active {
+  background: white; }
+
+.bx-wrapper {
+  font-style: italic;
+  background: transparent;
+  color: white;
+  border: none;
+  box-shadow: none; }
+
+.bxslider .bx-controls-direction {
+  top: 100%; }
+
+.bxslider .bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: 105%;
+  margin-top: -16px;
+  outline: 0;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  z-index: 9999; }
+
+.bx-controls-direction .bx-prev {
+  top: 105%;
+  left: 10px; }
+
+.bxslider .bx-controls-direction .bx-next {
+  top: 105%;
+  left: 50px; }
+
+.bxslider .info {
+  font-style: normal; }
+
+.bxslider .info p:nth-child(2) {
+  color: green; }
 
 #card {
   position: relative;
@@ -1833,100 +1883,6 @@ nav {
         top: 0px;
         color: #ffffff; }
 
-#real-slider {
-  background-image: url(../img/people/99.jpg);
-  padding: 140px 0;
-  background-size: cover; }
-  #real-slider .real-top-boxes {
-    width: 160px; }
-    #real-slider .real-top-boxes .top-r {
-      width: 58px;
-      display: inline-block;
-      margin-bottom: 5px;
-      background: #444853;
-      transition: all 0.3s; }
-  #real-slider .real-text-r {
-    width: 85%;
-    height: 100%; }
-    #real-slider .real-text-r .real-text {
-      position: relative; }
-      #real-slider .real-text-r .real-text .real-top-text {
-        position: absolute;
-        transition: all 0.8s;
-        visibility: hidden;
-        opacity: 0;
-        top: 0;
-        left: 0;
-        padding-right: 85px;
-        padding-left: 10px; }
-        #real-slider .real-text-r .real-text .real-top-text p:first-child {
-          position: relative;
-          font-size: 25px;
-          line-height: 35px;
-          font-family: "Changa", sans-serif;
-          font-weight: 200;
-          color: #ffffff;
-          font-style: italic; }
-          #real-slider .real-text-r .real-text .real-top-text p:first-child::before {
-            vertical-align: top;
-            top: -10px;
-            color: #ffffff;
-            font-style: italic;
-            font-weight: 300;
-            margin-right: 10px;
-            content: "\f10d";
-            font-family: 'FontAwesome';
-            position: absolute;
-            left: 0;
-            font-size: 10px; }
-        #real-slider .real-text-r .real-text .real-top-text h3 {
-          font-size: 25px;
-          color: #ffffff;
-          font-family: "Changa", sans-serif;
-          font-weight: 500;
-          display: block;
-          margin-bottom: 8px;
-          margin-top: 45px; }
-        #real-slider .real-text-r .real-text .real-top-text .text-gray {
-          color: #2fc42b !important; }
-  #real-slider .showing {
-    opacity: 1 !important;
-    visibility: visible !important; }
-  #real-slider .unshowing {
-    opacity: 0 !important; }
-  #real-slider .top-show {
-    background: white !important;
-    transform: scale(1.1, 1.1); }
-  #real-slider .my-display {
-    display: flex; }
-  @media screen and (max-width: 600px) {
-    #real-slider .my-display {
-      display: block; }
-      #real-slider .my-display .real-top-boxes {
-        width: 100% !important;
-        display: block !important; }
-      #real-slider .my-display .real-text {
-        width: 100% !important; } }
-
-.real-btn {
-  position: relative;
-  top: 220px;
-  font-size: 40px;
-  color: #ffffff;
-  line-height: 35px;
-  margin-right: 10px; }
-  .real-btn i {
-    position: absolute; }
-
-.next-real {
-  left: 35px; }
-
-.prev-real {
-  left: 10px; }
-
-@media screen and (max-width: 1023) {
-  .real-section {
-    padding: 500px 150px; } }
 #galler .itemm {
   margin-top: -16px;
   padding: initial; }
