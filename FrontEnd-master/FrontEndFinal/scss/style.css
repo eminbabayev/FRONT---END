@@ -1361,7 +1361,7 @@ nav {
       max-width: none;
       display: block;
       width: 100% !important;
-      animation-name: digitalAnim;
+      animation-name: digitalAni;
       animation-duration: 2s;
       animation-fill-mode: forwards; }
   .accordion-section h2 {
@@ -1441,7 +1441,7 @@ nav {
   .accordion-section .active .accordion-header {
     color: #333333 !important; }
 
-@keyframes digitalAnim {
+@keyframes digitalAni {
   0% {
     transform: translateX(-20px); }
   100% {

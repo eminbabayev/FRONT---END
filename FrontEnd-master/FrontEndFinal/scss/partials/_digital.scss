@@ -15,7 +15,7 @@
         max-width: none;
         display: block;
         width: 100% !important;
-        animation-name: digitalAnim;
+        animation-name: digitalAni;
         animation-duration: 2s;
         animation-fill-mode: forwards;
         }
@@ -124,7 +124,7 @@
 
 
 
-@keyframes digitalAnim{
+@keyframes digitalAni{
     0%{
         transform: translateX(-20px);   
      }
