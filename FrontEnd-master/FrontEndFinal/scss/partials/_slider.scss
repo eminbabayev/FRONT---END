@@ -122,3 +122,27 @@ h2{
     font-size: 10px;
 }
 }
+@media only screen and (max-width: 1025px){
+	.main-slider img{
+	display: none;
+	}
+	h2{
+		font-size: 30px;
+	}
+	.main-slider .text{
+	margin-top: 40px;
+	}
+	.main-slider .btn-style-one{
+	margin-top: 30px;
+	}
+	}
+	@media only screen and (max-width: 540px){
+	.main-slider .btn-style-one{
+	margin-top: 40px;
+	}
+	}
+	@media only screen and (min-width: 768px){
+	.main-slider h2{
+	margin-top: 10px;
+	}
+	}

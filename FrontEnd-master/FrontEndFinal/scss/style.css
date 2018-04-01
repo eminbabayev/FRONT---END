@@ -1171,6 +1171,24 @@ nav {
 
   h2 {
     font-size: 10px; } }
+@media only screen and (max-width: 1025px) {
+  .main-slider img {
+    display: none; }
+
+  h2 {
+    font-size: 30px; }
+
+  .main-slider .text {
+    margin-top: 40px; }
+
+  .main-slider .btn-style-one {
+    margin-top: 30px; } }
+@media only screen and (max-width: 540px) {
+  .main-slider .btn-style-one {
+    margin-top: 40px; } }
+@media only screen and (min-width: 768px) {
+  .main-slider h2 {
+    margin-top: 10px; } }
 #vision {
   padding: 140px 0 110px; }
   #vision .vision-image .image-in {
@@ -1327,74 +1345,107 @@ nav {
             color: white;
             transition: all 0.8s ease; }
 
-.digital {
-  font-family: 'Ubuntu', sans-serif; }
-  .digital img {
-    width: 100% !important;
-    animation-name: digitalAnim;
-    animation-duration: 3s;
-    animation-fill-mode: forwards; }
-  .digital h3 {
+.accordion-section {
+  position: relative;
+  padding: 200px 0px 100px;
+  background-color: #f5f5f5; }
+  .accordion-section .container {
+    padding: 0 15px; }
+  .accordion-section .img {
+    margin: -70px 0px 0px;
+    width: 100% !important; }
+    .accordion-section .img img {
+      position: relative;
+      left: -20px;
+      top: 0px;
+      max-width: none;
+      display: block;
+      width: 100% !important;
+      animation-name: digitalAnim;
+      animation-duration: 2s;
+      animation-fill-mode: forwards; }
+  .accordion-section h2 {
     color: #222222;
     font-size: 35px;
     font-weight: 700;
-    margin-bottom: 20px; }
-  .digital .text {
+    line-height: 43px;
+    margin-bottom: 26px; }
+  .accordion-section p {
     color: #333333;
     font-size: 18px;
+    line-height: 25px;
+    font-family: "Changa",sans-serif;
     font-weight: 300;
-    margin-bottom: 30px;
-    font-family: "Changa", sans-serif; }
-  .digital .list-style-one {
-    list-style: none;
-    padding: 0px;
-    margin: 0px; }
-    .digital .list-style-one li {
-      padding-left: 15px;
+    margin-bottom: 25px; }
+  .accordion-section .accordion-block {
+    position: relative;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 4px 14px 0px #ededed;
+    -moz-box-shadow: 0px 4px 14px 0px #ededed;
+    -ms-box-shadow: 0px 4px 14px 0px #ededed;
+    -o-box-shadow: 0px 4px 14px 0px #ededed;
+    box-shadow: 0px 4px 14px 0px #ededed;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s  ease;
+    -ms-transition: all 1s  ease;
+    -o-transition: all 1s  ease;
+    transition: all 1s  ease; }
+    .accordion-section .accordion-block .count {
+      font-family: "Changa",sans-serif;
+      font-weight: 300;
+      position: absolute;
+      left: 30px;
+      top: 13px;
+      color: #333333; }
+    .accordion-section .accordion-block .accordion-header {
+      position: relative;
       font-size: 15px;
       color: #aaaaaa;
-      margin-bottom: 25px;
-      font-weight: 300;
-      font-family: "Changa", sans-serif; }
-      .digital .list-style-one li::before {
-        position: absolute;
+      cursor: pointer;
+      line-height: 30px;
+      font-weight: 400;
+      padding: 0px 50px 0px 64px;
+      -webkit-transition: all 1s  ease;
+      -moz-transition: all 1s  ease;
+      -ms-transition: all 1s  ease;
+      -o-transition: all 1s  ease;
+      transition: all 1s  ease; }
+      .accordion-section .accordion-block .accordion-header::after {
+        content: "\f0da";
         font-family: "FontAwesome";
-        content: '\f0da';
-        left: 0px;
-        color: #2fc42b;
-        font-size: 15px; }
-    .digital .list-style-one.accordion li {
+        position: absolute;
+        right: 15px; }
+    .accordion-section .accordion-block .content {
+      margin-bottom: 20px;
+      line-height: 26px;
+      font-size: 15px;
       color: #aaaaaa;
-      box-shadow: 0px 4px 14px 0px #ededed;
-      padding: 10px; }
-      .digital .list-style-one.accordion li span {
-        color: #333333; }
-      .digital .list-style-one.accordion li.active {
-        color: #333333; }
-        .digital .list-style-one.accordion li.active .orderNum {
-          color: #2fc42b; }
-        .digital .list-style-one.accordion li.active::before {
-          position: absolute;
-          font-family: "FontAwesome";
-          content: '\f0d7';
-          right: 30px;
-          left: initial;
-          color: #2fc42b;
-          font-size: 15px; }
-      .digital .list-style-one.accordion li .collapse {
-        margin-bottom: 20px;
-        line-height: 26px;
-        font-size: 15px;
-        color: #aaaaaa; }
-      .digital .list-style-one.accordion li::before {
-        position: absolute;
-        font-family: "FontAwesome";
-        content: '\f0da';
-        right: 30px;
-        left: initial;
-        color: #0a0a0a;
-        font-size: 15px; }
+      height: 0px;
+      overflow: hidden;
+      font-size: 14px;
+      padding: 0px 50px 0px 64px;
+      -webkit-transition: all 1s  ease;
+      -moz-transition: all 1s  ease;
+      -ms-transition: all 1s  ease;
+      -o-transition: all 1s  ease;
+      transition: all 1s  ease; }
+  .accordion-section .active .content {
+    height: 100px; }
+  .accordion-section .active .count {
+    color: green; }
+  .accordion-section .active .accordion-header::after {
+    color: green;
+    content: "\f0d7"; }
+  .accordion-section .active .accordion-header {
+    color: #333333 !important; }
 
+@keyframes digitalAnim {
+  0% {
+    transform: translateX(-20px); }
+  100% {
+    transform: translateX(20px); } }
 #google {
   padding: 150px 0 110px; }
   #google .up-google .google-image {
@@ -1832,7 +1883,7 @@ nav {
       border-bottom: 1px solid #2fc42b;
       outline: none; }
   .contact-form .form-group textarea {
-    height: 120px; }
+    height: 220px; }
   .contact-form .form-group input.error,
   .contact-form .form-group textarea.error {
     border-color: #ff0000; }

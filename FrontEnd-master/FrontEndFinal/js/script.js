@@ -27,8 +27,6 @@ $("#back-to-top").click(function(){
     
 
 
-      
-
 
     $(window).scroll(function(){
     
@@ -96,7 +94,7 @@ $("#back-to-top").click(function(){
     
    
     $(".mydropdown-toggle").mouseover(function(){
-      $("nav").css("overflo")
+      $("nav").css("overflow")
     });
     // $(".input-text").click(function(){
     //     $(this).css("border", "2px solid red ");
@@ -111,24 +109,25 @@ $("#back-to-top").click(function(){
     $('.owl-carousel').owlCarousel({
       loop:true,
       margin: 10,
-      nav:true,
+      nav:false,
       smartSpeed:950,
       autoplay:true,
       
-      
+      dots:false,
       responsive:{
           0:{
               items:1
           },
           600:{
-              items:2
+              items:3
           },
           1000:{
-              items:3
+              items:5
           }
       }
   })
-  if($(".fancybox").length) {
+  
+  if($(".fancybox").length) { 
 		$(".fancybox").fancybox({
 			openEffect  : 'fade',
             closeEffect : 'fade',
@@ -150,7 +149,12 @@ $("#back-to-top").click(function(){
   prevText:[ '<span class="fa fa-caret-left"></span>' ]
 });
 
-  
+
+
+
+      
+
+
 
 
   
