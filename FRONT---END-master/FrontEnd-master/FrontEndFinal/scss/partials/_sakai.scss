@@ -195,6 +195,7 @@
     right: 0;
     top: 0;
     cursor: pointer;
+    
 
     
     
@@ -258,5 +259,11 @@
         
         .logo-widget{
             padding-right: 0 !important;
+        }
+    }
+    @media screen and (max-width: 765px){
+        .theme-btn{
+           margin-top: 16px;
+        
         }
     }

@@ -1006,6 +1006,9 @@ nav {
 
   .logo-widget {
     padding-right: 0 !important; } }
+@media screen and (max-width: 765px) {
+  .theme-btn {
+    margin-top: 16px; } }
 #end {
   text-align: center;
   background-color: #1c1f27;
